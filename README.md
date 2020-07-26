@@ -44,22 +44,22 @@
         * if everything is right, you should see the nodes talking to each other after starting
 6. Open Mycrypto and connect to our local network
     * open my crypto and on the lower left of the screen click on "change network"
-    ![genesis_configuration](./screenshots/change_network.png)
+    ![screen_with_change_network](./screenshots/change_network.png)
         * on the lower left again, click on "add custom node"
-        ![genesis_configuration](./screenshots/add_node.png)
+        ![screen_with_custom_node](./screenshots/add_node.png)
         * in the dialog box where it says "network" choose custom
-        ![genesis_configuration](./screenshots/custom.png)        
+        ![you need the custom button](./screenshots/custom.png)        
         * complete the rest of the field, with network name, chainID (the 333 again), network address (http://127.0.0.1:8545)
-        ![genesis_configuration](./screenshots/node_dialog.png)
+        ![configuring custom node](./screenshots/node_dialog.png)
         * click save
     * click keystore file
         * choose the keystore file for the rpc enabled node and type in the password of the node
-        ![genesis_configuration](./screenshots/keystore.png)
+        ![using keystore to access account](./screenshots/keystore.png)
         * you should now see the account for that node 
     * do do a transaction, enter the target accountnumber, the amount of eth, etc 
-    ![genesis_configuration](./screenshots/transaction_1.png)
+    ![Transfer_dialog](./screenshots/transaction_1.png)
     * transaction complete
-    ![genesis_configuration](./screenshots/ETH_transfer_1.png)
+    ![Transfer successful](./screenshots/ETH_transfer_1.png)
     
 7. to allow new nodes to be sealers on the network you use the GETH console, you need at >50% of nodes to agree to let the new node in. 
     * restart node1 but with the command ./geth --datadir node1/ --rpc --networkid 333 -unlock '0x2A6BD0DDe6dEaDFd32Ef7AEC9401A77f59bb74ab' --password password.sec --mine --allow-insecure-unlock --port 30303 --rpcapi 'net, db, miner, clique, admin, eth, web3' console
