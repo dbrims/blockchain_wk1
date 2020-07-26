@@ -1,0 +1,5 @@
+clique.propose("0x17E98AB03A727F4c85EC94553109BE990C0bc9C2", true)
+clique.propose("0x17E98AB03A727F4c85EC94553109BE990C0bc9C2", true)
+admin peers
+admin.peers()
+admin.peers

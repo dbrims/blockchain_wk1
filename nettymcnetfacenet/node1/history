@@ -1,0 +1,7 @@
+clique.propose("0x17E98AB03A727F4c85EC94553109BE990C0bc9C2", true)
+clique.getSigners()
+admin.addPeer(enode://9a9e32107af9dfce17a194fa6af4721fcd5b6fef6cdc7ffc759c4f685d1443cf6ad774a85df7d20926aadf4d8e427e1df927fd5f629148455fef64a9aa08c72a@127.0.0.1:0?discport=30305)
+admin.addPeer("enode://9a9e32107af9dfce17a194fa6af4721fcd5b6fef6cdc7ffc759c4f685d1443cf6ad774a85df7d20926aadf4d8e427e1df927fd5f629148455fef64a9aa08c72a@127.0.0.1:0?discport=30305")
+admin.peers
+clique.getSigners()
+clique.proposals
